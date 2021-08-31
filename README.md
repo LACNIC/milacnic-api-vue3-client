@@ -46,19 +46,16 @@ Edit Org - edit the organization information.
 View and Create RPKI Certificates.
 
 /rpki/roas
-View, Create and Revoke ROAs.
-
-/rpki/roas/new
-Create ROA
+View, and Revoke ROAs.
 
 /ip/edit/{prefix}/{prefixLength}
-Edit Contacts (IP)
+Edit Contacts (IP).
 
 /ip/edit/{as}
-Edit Contacts (ASN)
+Edit Contacts (ASN).
 ```
 
 ### What is NOT included in this release:
 ```
-Form validations, OAuth authentication, sub-assignments, IRR and Rate limit features are not included in this release.
+Form validations, OAuth authentication, sub-assignments, ROAs Creation, IRR and Rate limit features are not included in this release.
 ```
