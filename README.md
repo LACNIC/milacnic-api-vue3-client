@@ -28,7 +28,7 @@ For production environment you need to replace the value of the const API_URL fr
 Login using ORG-ID and Token provided by oAuth: Token URL: https://dev-lacnic.auth0.com/oauth/token, Flow: password
 
 /
-Home page, Once logged in you will see a view a list of IPv4, IPv6, and ASN resources of the organization with links to View Delegations, and Edit Contacts.
+Home page, Once logged in you will see a list of IPv4, IPv6, and ASN resources of the organization with links to View Delegations, and Edit Contacts.
 
 /delegations /detail/{prefix}/{prefixLength}
 See Delegations of a block - allows to see a list with all the delegations each one with their hostnames, a link to Delete, and a link to edit the delegation (edit the hostnames). Also a New delegation link is provided.
