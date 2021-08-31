@@ -30,13 +30,13 @@ Login using ORG-ID and Token provided by oAuth: Token URL: https://dev-lacnic.au
 /
 Home page, Once logged in you will see a list of IPv4, IPv6, and ASN resources of the organization with links to View Delegations, and Edit Contacts.
 
-/delegations /detail/{prefix}/{prefixLength}
+/delegations/detail/{prefix}/{prefixLength}
 See Delegations of a block - allows to see a list with all the delegations each one with their hostnames, a link to Delete, and a link to edit the delegation (edit the hostnames). Also a New delegation link is provided.
 
-/delegations /new /{prefix}/{prefixLength}
+/delegations /new/{prefix}/{prefixLength}
 New Delegation.
 
-/delegations /detail/{prefix}/{prefixLength}
+/delegations/detail/{prefix}/{prefixLength}
 Delete delegation - deletes the delegation along with its reverse hosts.
 
 /organization/edit
