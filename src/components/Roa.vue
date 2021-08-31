@@ -1,0 +1,78 @@
+<template>
+  <div class="ui card product">
+    <div class="image">
+      <img src="data:image/jpeg;base64,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"/>
+    </div>
+    <div class="content">
+      <div class="header">{{ delegation.name }} / ASN: {{ delegation.asn}}
+
+
+</div>
+      <div class="description"><p><b>Not Valid After:</b> {{ delegation.notValidAfter }} </p><p><b>Prefixes:</b> {{ JSON.stringify(delegation.resources) }} </p></div>
+    </div>
+    <a class="ui button primary"  @click="revocarRoaC(delegation.serialNumber)">
+    Revocar ROA
+    </a>
+  </div>
+</template>
+
+
+
+<script>
+import { API_URL } from "../utils/constants";
+import { useRouter, useRoute } from "vue-router";
+import { revocarRoa } from "../api/api";
+
+
+
+export default {
+  name: "Roa",
+  props: {
+    delegation: Object,
+    bloque : String,
+  },
+  watch: {
+    $route(to, from) {
+      bloque = to.params.ip + "/" + to.params.prefix;
+      console.log(bloque);
+    },
+  },
+
+  setup(props) {
+    const { params } = useRoute();
+    const router = useRouter();
+    const revocarRoaC = async (sn) => {
+      console.log("va a eliminar" + JSON.stringify(sn));
+      const result = await revocarRoa(sn);
+      window.location="/rpki/roas/";
+    };
+    
+
+    return {
+      API_URL,
+      revocarRoaC,
+    };
+  },
+};
+</script>
+
+<style lang="scss" scoped>
+.product {
+  &:hover {
+    .ui.button {
+      min-height: 36px;
+    }
+  }
+
+  .ui.button {
+    max-height: 0;
+    min-height: 0;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: min-height 0.6s ease;
+  }
+}
+</style>
