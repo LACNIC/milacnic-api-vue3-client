@@ -25,7 +25,7 @@ For production environment you need to replace the value of the const API_URL fr
 ### Features
 ```
 /login
-Login using ORG-ID and Token provided by OAuth: 
+Login using ORG-ID and Token provided by Auth0: 
 Token URL: https://dev-lacnic.auth0.com/oauth/token
 Flow: password
 
