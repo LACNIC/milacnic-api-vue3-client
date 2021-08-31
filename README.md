@@ -58,7 +58,7 @@ Edit Contacts (IP)
 Edit Contacts (ASN)
 ```
 
-### What is NOT included in this version:
+### What is NOT included in this release:
 ```
-This version doesn't include OAuth authentication, sub-assignments, IRR and Rate limit features.
+Form validations, OAuth authentication, sub-assignments, IRR and Rate limit features are not included in this release.
 ```
